@@ -88,7 +88,7 @@ export const LEFT_MONITOR_CSS_OBJECT_POSITION = new Vector3(
   -4.23009
 );
 export const LEFT_MONITOR_CSS_OBJECT_SCALE = new Vector3(0.00102, 0.00102, 1);
-export const LEFT_MONITOR_IFRAME_SRC = "https://joan-os.vercel.app";
+export const LEFT_MONITOR_IFRAME_SRC = "https://drive.google.com/file/d/1NOOC6BL0yXIC2PsbLRmwE3rE8iK0Zr9M/view?usp=sharing";
 export const LEFT_MONITOR_CAMERA_POSITION = new Vector3(1.06738, 2.60725, -1.6);
 export const LEFT_MONITOR_CAMERA_QUATERNION = new Quaternion(
   0,
@@ -183,9 +183,9 @@ export const RUBIK_POSITION = new Vector3(-0.67868, 1.499, -3.92849);
 export const RUBIK_SCALE = 0.021432;
 
 // Links
-export const LINKEDIN_URL = "https://www.linkedin.com/in/joan-ramos-refusta/";
-export const GITHUB_URL = "https://github.com/jrefusta";
-export const ITCHIO_URL = "https://jrefusta.itch.io/";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/amulya-rayabhagi/";
+export const GITHUB_URL = "https://github.com/AmulyaRayabhagi05";
+export const ITCHIO_URL = "https://amulyarayabhagi.itch.io/";
 
 // Top Chair
 export const TOP_CHAIR_POSITION = new Vector3(1.4027, 0.496728, -1.21048);
