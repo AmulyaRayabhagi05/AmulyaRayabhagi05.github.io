@@ -1,5 +1,5 @@
-# Simple workflow for deploying Vite content to GitHub Pages
-name: Deploy Vite site to Pages
+# Simple workflow for deploying Webpack/Three.js content to GitHub Pages
+name: Deploy Webpack site to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -15,14 +15,12 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -50,7 +48,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Vite builds your site into a folder named 'dist'
+          # Assumes Webpack outputs to the 'dist' folder. 
+          # Change to './build' if your webpack.prod.js targets a build folder instead.
           path: './dist'
 
       - name: Deploy to GitHub Pages
