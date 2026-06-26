@@ -88,7 +88,7 @@ export const LEFT_MONITOR_CSS_OBJECT_POSITION = new Vector3(
   -4.23009
 );
 export const LEFT_MONITOR_CSS_OBJECT_SCALE = new Vector3(0.00102, 0.00102, 1);
-export const LEFT_MONITOR_IFRAME_SRC = "https://drive.google.com/file/d/1NOOC6BL0yXIC2PsbLRmwE3rE8iK0Zr9M/view?usp=sharing";
+export const LEFT_MONITOR_IFRAME_SRC = "https://amulyarayabhagi.wixsite.com/personal-portfolio";
 export const LEFT_MONITOR_CAMERA_POSITION = new Vector3(1.06738, 2.60725, -1.6);
 export const LEFT_MONITOR_CAMERA_QUATERNION = new Quaternion(
   0,
